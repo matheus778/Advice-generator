@@ -1,0 +1,57 @@
+.advice-container {
+  $cyan: hsl(193, 38%, 86%);
+  $green: hsl(150, 100%, 66%);
+  $zinc100: hsl(217, 19%, 38%);
+  $zinc200: hsl(217, 19%, 24%);
+  $zinc300: hsl(218, 23%, 16%);
+
+  width: 90%;
+  max-width: max-content;
+  background-color: $zinc200;
+  padding: 30px 20px;
+  padding-bottom: 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+  .advice-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    span {
+      color: $green;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+
+    p {
+      max-width: 400px;
+      text-align: center;
+      color: $cyan;
+      font-size: 28px;
+    }
+  }
+
+  a.dice {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: $green;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(25px);
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

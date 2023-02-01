@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
+$cyan: hsl(193, 38%, 86%);
+$green: hsl(150, 100%, 66%);
+$zinc100: hsl(217, 19%, 38%);
+$zinc200: hsl(217, 19%, 24%);
+$zinc300: hsl(218, 23%, 16%);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  $cyan: hsl(193, 38%, 86%);
-  $green: hsl(150, 100%, 66%);
-  $zinc100: hsl(217, 19%, 38%);
-  $zinc200: hsl(217, 19%, 24%);
-  $zinc300: hsl(218, 23%, 16%);
-}
-
 body {
   height: 100vh;
   font-family: 'Manrope', sans-serif;
+  background-color: $zinc300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
