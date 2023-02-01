@@ -29,6 +29,9 @@
   color: hsl(193deg, 38%, 86%);
   font-size: 28px;
 }
+.advice-container .advice-content img {
+  width: 90%;
+}
 .advice-container a.dice {
   align-self: center;
   display: flex;
@@ -45,4 +48,18 @@
 .advice-container a.dice img {
   width: 25px;
   height: 25px;
+}
+.advice-container a.dice img.rotate {
+  -webkit-animation: rotate infinite 3s;
+          animation: rotate infinite 3s;
+}
+@-webkit-keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=main.css.map */
